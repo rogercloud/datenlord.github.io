@@ -11,8 +11,11 @@ In your application please include answers to the following questions and a prop
 Please submit your application as early as possible. We will review your application and if it is accepted, we will assign a mentor to work with you on a detailed proposal together. 
 
 ## Guide for Proposal
-TODO: one-pager proposal?
-
+- Take a look of the official web site and github projects, understand what we're doing and what problem we're solving.
+- Pick a topic from [ideas list](https://datenlord.github.io/gsoc-ideas-list.html) or propose one by yourself. The topic should be related to the existing DatenLord community projects.
+- Introduce yourself in the [mailing list](datenlord@googlegroups.com), including the topic you want to work on, and of course tell the community why you're interested in working on the project.
+- One of the mentors will reach out to you for futher communication.
+- Submit the application before the deadline.
 
 ## Requirements before Application
 Preferred Requirements:
