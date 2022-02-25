@@ -3,19 +3,46 @@
 ## Concurrent Hashmap Bench Framework in Rust
 Implement a concurrent hashmap benchmark framework which is used to test performance of a concurrent hashmap in Rust. The framework can test the performance of concurrent hashmap with different parameters.
 
-Main functionalities
-- Different percentages of read, update, delete operations
-- Different load factors
-- Different numbers of concurrent threads
-- Different key/value types
+Expected Outcomes:
 
-
-## RCU Library in Rust
-Implement a user-space [RCU](https://liburcu.org/) library in Rust.
+- A concurrent hashmap benchmark framework that supports the following functionalities
+  1. Different percentages of read, update, delete operations
+  2. Different load factors
+  3. Different numbers of concurrent threads
+  4. Different key/value types
 
 Prerequisite Knowledge:
-- atomic operation
-- memory model
+- Familiar with Rust language
+
+Possible Mentor:
+Zheng Pan (zheng.pan@datenlord.io)
+
+Expected Size of the Project:
+175 hours
+
+Difficulty Rating:
+Medium
+
+## RCU Library in Rust
+Implement a user-space [RCU](https://liburcu.org/)(Read-Copy-Update) library in Rust.
+
+Expected Outcomes:
+- A high performance RWLock when read operation is majority and update operation is rare.
+- A library that provides primitives that can be used to implement lockless data structure.
+
+Prerequisite Knowledge:
+- Familiar with Rust language
+- Familiar with atomic operation
+- Familiar with memory ordering
+
+Possible Mentor:
+Zheng Pan (zheng.pan@datenlord.io)
+
+Expected Size of the Project:
+350 hours
+
+Difficulty Rating:
+Hard
 
 
 ## Epaxos Chaos Engineering Framework in Rust
