@@ -19,15 +19,40 @@ Prerequisite Knowledge:
 ## Epaxos Chaos Engineering Framework in Rust
 Epaxos consensus protocol keeps cluster consistency even when some nodes fails. And Chaos Engineering test is one of the best practice to verify the correctness of the protocol implementation. We've implemented this protocol in Rust, so of source we need an Chaos Engineering framework.
 
+Expected Outcomes:
+- A framework that can trigger and monitor result of Chaos tests.
+- The framework can help reproduce the result if any error met during the tests.
+
 Prerequisite Knowledge:
 - Familiar with Rust language
 - Epaxos (or Paxos/Raft) consensus protocol 
 - Understand Chaos Engineering concept
 
+Possible Mentor:
+Jicheng Shi (jicheng.shi@datenlord.io)
+
+Expected Size of the Project:
+350 hours
+
+Difficulty Rating:
+Hard
+
 ## Rust RPC library on RDMA network
 RDMA network is widely adopted in date centers for high performance network applications, and RPC is one of most used ways in the network communication. We've published a Rust RDMA lib, based on which a RPC lib is our next step. We can leverage this RPC library in the DatenLord cluster communication.
+
+Expected Outcomes:
+- A Rust RPC library
 
 Prerequisite Knowledge:
 - Familiar with Rust language
 - Familiar with RDMA concept, familiar with RDMA lib is better
 - Familiar with famous RPC libs, such as GPRC.
+
+Possible Mentor:
+Jicheng Shi (jicheng.shi@datenlord.io)
+
+Expected Size of the Project:
+175 hours
+
+Difficulty Rating:
+Medium
