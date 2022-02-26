@@ -1,7 +1,7 @@
 # Ideas List of DatenLord
 
-## Concurrent Hashmap Bench Framework in Rust
-Implement a concurrent hashmap benchmark framework which is used to test performance of a concurrent hashmap in Rust. The framework can test the performance of concurrent hashmap with different parameters.
+## Concurrent Hashmap Benchmark Framework in Rust
+Performance is a key indicator of any concurrent data structures. Concurrent hashmap is one of the most popular concurrent data structures. There are a lot of different implementations of concurrent hashmap. A concurrent hashmap benchmark framework is needed to test performance of different concurrent hashmap implementations. The framework should be able to benchmark the performance of different concurrent hashmap implementations under different user scenarios.
 
 Expected Outcomes:
 
@@ -24,7 +24,7 @@ Difficulty Rating:
 Medium
 
 ## RCU Library in Rust
-Implement a user-space [RCU](https://liburcu.org/)(Read-Copy-Update) library in Rust.
+RCU(Read-Copy-Update) is a synchronization mechanism which is used in Linux kernel widely. RCU can suppport read and write concurrently. In the user cases that read operation is dominant and write operation is rare, RCU shows extreme performance compared with other lock-based synchronization mechanisms. RCU can also be used as memory reclamation mechanism which is important in lock-less data structures. A userspace [RCU](https://liburcu.org/) library in Rust is needed.
 
 Expected Outcomes:
 - A high performance RWLock when read operation is majority and update operation is rare.
