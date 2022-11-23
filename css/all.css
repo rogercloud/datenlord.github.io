@@ -1,0 +1,83 @@
+body{
+    margin:0;
+}
+
+.main{
+    min-width: 1800px;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: visible;
+    color: #42424A;
+}
+
+/* header --start*/
+
+.main .header_box{
+    height:95px;
+    background:#F8F8FE;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 70px 119px 0px 89px;
+}
+
+.main .header_left {
+    display: flex;
+    cursor: pointer;
+}
+
+.main .header_right {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .header_right p {
+    float: left;
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.main .header_right .dropdown {
+    padding-left:58px;
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown content (hidden by default)*/
+.dropdown_content {
+    margin-top: 60px;
+    margin-left: -5px;
+    padding: 26px 20px 5px 15px;
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.dropdown_content a {
+    float: none;
+    padding: 0px 0px 15px 0px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.dropdown_content a:hover {
+    color: #767EE5;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}

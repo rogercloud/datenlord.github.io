@@ -1,0 +1,135 @@
+#summary img {
+    padding-left: 92px;
+    padding-top: 45px;
+}
+
+#summary {
+    background:#F8F8FE;
+    display: flex;
+    flex-direction: row;
+}
+
+.describe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center {
+    align-items: center;
+    align-content: center;
+}
+
+.right {
+    align-items: right;
+    align-content: right;
+}
+
+#summary .describe {
+    padding-left: 100px;
+}
+
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.detail {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+#summary .describe .detail {
+    padding-right: 170px;
+}
+
+#section_1 {
+    margin-top: 120px;
+}
+
+#section_1 .detail {
+    width: 800px;
+}
+
+#section_1 img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    border: 0px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #767EE5 0%, #9966CC 100%);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#section_1 button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 85px;
+}
+
+.pic_right{
+    display: flex;
+    flex-direction: row;
+    padding-top: 328px;
+    justify-content: center;
+}
+
+.pic_right .detail {
+    width: 860px;
+}
+
+.pic_right .describe {
+    margin-right: 137px;
+}
+
+.pic_right button {
+    display: block;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: 25px;
+}
+
+#section_3 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 328px;
+    justify-content: center;
+}
+
+#section_3 .describe {
+    margin-left: 137px;
+}
+
+#section_3 .detail {
+    width: 860px;
+}
+
+#section_3 button {
+    display: block;
+    margin-right: auto;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.bottom {
+    margin-bottom: 300px;
+}
