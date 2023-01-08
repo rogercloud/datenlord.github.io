@@ -1,0 +1,33 @@
+.main .header_box{
+    background-color: white;
+}
+
+#summary {
+    display: flex;
+    margin-top: 150px;
+    margin-right: 220px;
+}
+
+#summary img {
+    margin-left: 300px;
+}
+
+#summary .describe {
+    margin-left: 250px;
+}
+
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.detail {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 40px;
+}
